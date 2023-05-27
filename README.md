@@ -1,4 +1,4 @@
-# OurTransport
+# Our Transport
 
 A futuristic car rental application made with Android Studio, that began as a wireframe and mockup practice at the vocational university. The ambition is to make this project come to life and to explore the world of application development.
 
