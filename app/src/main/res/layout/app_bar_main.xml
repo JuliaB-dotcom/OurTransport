@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/Theme.OurTransport.AppBarOverlay">
@@ -16,7 +17,10 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:popupTheme="@style/Theme.OurTransport.PopupOverlay" />
+            app:navigationIcon="@drawable/ic_baseline_menu_24"
+            app:popupTheme="@style/Theme.OurTransport.PopupOverlay"
+            app:subtitle="Our Transport"
+            app:subtitleTextColor="#FFFFFF" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -29,6 +33,7 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
+        android:contentDescription="@string/fab_transformation_scrim_behavior"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
